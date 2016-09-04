@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Logo Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <h1>Society Education Programs</h1>
+        <form class="jumbotron" id="search">
+            <select class="form-control" id="programType">
+              <option>Program Type</option>
+          <option value="scholarship">Scholarship</option>
+          <option value="loanProgram">Loan Program</option>
+        </select>
+            <select class="form-control" id="educationLevel">
+              <option>Education Level</option>
+          <option value="kindergarten">Kindergarten</option>
+          <option value="highSchool">High School</option>
+        </select>
+            <button class="btn submit" type="submit">Search</button>
+        </form>
+        <div class="gallery clear-fix">
+            <div class="row text-center">
+                <img class="col-md-3 scholarship highSchool" src="images/aci.png" alt="aci logo">
+                <img class="col-md-3 loanProgram kindergarten" src="images/acm.png" alt="acm logo">
+                <img class="col-md-3 scholarship highSchool" src="images/afe.png" alt="afe logo">
+                <img class="col-md-3 loanProgram highSchool" src="images/aci.png" alt="aci logo">
+            </div>
+            <div class="row text-center">
+                <img class="col-md-3 scholarship highSchool" src="images/acm.png" alt="acm logo">
+                <img class="col-md-3 loanProgram highSchool" src="images/afe.png" alt="afe logo">
+                <img class="col-md-3 scholarship kindergarten" src="images/aci.png" alt="aci logo">
+                <img class="col-md-3 loanProgram kindergarten" src="images/acm.png" alt="acm logo">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
